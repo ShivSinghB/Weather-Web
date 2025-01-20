@@ -90,6 +90,3 @@ document.body.addEventListener("load", getWeatherData());
 document.addEventListener("contextmenu", (rightCurStop) =>{
     rightCurStop.preventDefault();
 }, false);
-// document.addEventListener("contextmenu", function(e){                                                                        //baghel
-//     e.preventDefault() 
-// },false);
