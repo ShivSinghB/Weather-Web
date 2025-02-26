@@ -16,7 +16,6 @@ body {
   color: #171717;
 }
 .container {
-  
   background: linear-gradient(to right top, #8887870e, #ff892898);
   color: #171717;
   padding: 2rem;
@@ -112,6 +111,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
     margin-top: 3rem;
+    cursor: no-drop;
   }
   
   .weather_card {
@@ -122,6 +122,7 @@ body {
     padding: 1rem;
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: none;
   }
   
   .weather_card i {
